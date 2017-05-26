@@ -1,9 +1,13 @@
 /**
+ * custom-alert.js - https://github.com/gacomhe/ASTI-Dialogs
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
  * Title: Custom Dialog
  * Description: This is used to innovate the usual alert/confirm message.
  * Author: Jhon Mher V. Gaco (DOST-ASTI Science Research Specialist I)
  * Reference: Animate.css(https://daneden.github.io/animate.css), Materialize v0.97.8 (http://materializecss.com)
+ * Copyright (c) 2017 Jhon Mher V. Gaco
  */
+
 (function( $ ){
 	var overlay = "<div class='asti-overlay'></div>";
 	var container = "<div class='asti-container' style='display:none'></div>";
