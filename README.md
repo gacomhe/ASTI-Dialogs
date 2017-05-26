@@ -1,0 +1,1 @@
+[ASTI-Dialogs](https://github.com/gacomhe/ASTI-Dialogs), a plugin created to inovate the usual alert and confirm functions of javascript.
