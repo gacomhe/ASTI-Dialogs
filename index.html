@@ -205,24 +205,6 @@ $.astiAlert({
    <span>headerCloseButton:</span> true,
    <span>showOkButton:</span> true,
    <span>showCancelButton:</span> true,  
-   <span>okButtonAction:</span> function(){
-   	alert("Note that if you handle Ok button action the default 
-   	closing of dialog will be alter or remove");
-
-   	$.astiAlert("hide");
-   },
-   <span>cancelButtonAction:</span> function(){
-   	alert("Note that if you handle Cancel button action the default 
-   	closing of dialog will be alter or remove");
-   	
-   	$.astiAlert("hide");
-   },
-   headerButtonAction: function(){
-   	alert("Note that if you handle Cancel button action the default 
-   	closing of dialog will be alter or remove");
-   	
-   	$.astiAlert("hide");
-   },
    <span class="active">placement:</span> "topLeft",
 });
 					</div>
@@ -253,26 +235,7 @@ $.astiAlert({
    <span>type:</span> "success",
    <span>headerCloseButton:</span> true,
    <span>showOkButton:</span> true,
-   <span>showCancelButton:</span> true,  
-   <span>okButtonAction:</span> function(){
-   	alert("Note that if you handle Ok button action the default 
-   	closing of dialog will be alter or remove");
-
-   	$.astiAlert("hide");
-   },
-   <span>cancelButtonAction:</span> function(){
-   	alert("Note that if you handle Cancel button action the default 
-   	closing of dialog will be alter or remove");
-   	
-   	$.astiAlert("hide");
-   },
-   headerButtonAction: function(){
-   	alert("Note that if you handle Cancel button action the default 
-   	closing of dialog will be alter or remove");
-   	
-   	$.astiAlert("hide");
-   },
-   <span>placement:</span> "topLeft",
+   <span>showCancelButton:</span> true,
    <span class="active">animation:</span> "bounce"
    <span class="active">closingAnimation:</span> "bounce"
 });
@@ -746,18 +709,6 @@ $.astiAlert({
 					headerCloseButton: true,	
 					showOkButton: true,
 					showCancelButton: true,
-					okButtonAction: function(){
-						alert("Note that if you handle Ok button action the default closing of dialog will be alter or remove");
-   						$.astiAlert("hide");
-					},
-					cancelButtonAction: function(){
-						alert("Note that if you handle Close button action the default closing of dialog will be alter or remove");
-   						$.astiAlert("hide");
-					},
-					headerButtonAction: function(){
-						alert("Note that if you handle Header button action the default closing of dialog will be alter or remove");
-   						$.astiAlert("hide");
-					},
 					placement: $("input[name='placement']:checked").val()
 				});
 			});
@@ -769,19 +720,6 @@ $.astiAlert({
 					headerCloseButton: true,	
 					showOkButton: true,
 					showCancelButton: true,
-					okButtonAction: function(){
-						alert("Note that if you handle Ok button action the default closing of dialog will be alter or remove");
-   						$.astiAlert("hide");
-					},
-					cancelButtonAction: function(){
-						alert("Note that if you handle Close button action the default closing of dialog will be alter or remove");
-   						$.astiAlert("hide");
-					},	
-					headerButtonAction: function(){
-						alert("Note that if you handle Header button action the default closing of dialog will be alter or remove");
-   						$.astiAlert("hide");
-					},
-					placement: $("input[name='placement']:checked").val(),
 					animation: $("#animation").val(),
 					closingAnimation: $("#closingAnimation").val(),
 				});
