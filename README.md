@@ -1,4 +1,4 @@
-[ASTI-Dialogs](https://github.com/gacomhe/ASTI-Dialogs), a plugin created to inovate the usual alert and confirm functions of javascript.
+[ASTI-Dialogs](https://github.com/gacomhe/ASTI-Dialogs), a plugin created to innovate the usual alert and confirm functions of javascript.
 
 ## Supported Browsers Tested :
 Chrome 57, Firefox 52.0.2
